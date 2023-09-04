@@ -374,6 +374,7 @@ textarea {
     display: inline;
     font-size: inherit;
     max-width: var(--width-card-wide);
+    min-width: 300px;
 }
 
 input[type="checkbox"],
@@ -395,7 +396,7 @@ textarea {
     border: 2px solid #000;
     border-radius: var(--border-radius);
     margin-bottom: 1rem;
-    padding: 0.6rem 5rem;
+    padding: 0.6rem 0.6rem;
 }
 
 input[readonly],
